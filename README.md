@@ -7,7 +7,8 @@
   (remove XXX and pockets not included in voxel data set)   
   (the original *.lst is in list folder, generated new *.lst in current folder)    
   (data_check.py)  
-### 3.generate training data and valiation data  
+### 3.generate training data and valiation data   
+  (As the data set is very big, data generator can avoid the OOM error whrn training model)  
   (data_prepare.py)  
 ### 4.use data generator to train and validate   
   (main.py)
